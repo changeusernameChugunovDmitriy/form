@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<label for="gender"></label>
+<select name="gender" id="gender">
+    <option value="rock">Рок</option>
+    <option value="blues">Блюз</option>
+    <option value="classic">Классика</option>
+</select>
+
+<div id="div" contenteditable="true">div</div>
+
+
+
+
+<table id="Table">
+    <tr>
+        <th colspan="3">Квадрат <em>Bagua</em>: Направление
+            , Элемент,
+             Цвет,
+              Значение</th>
+    </tr>
+    <tr>
+        <td class="cz"><strong>Северо-Запад</strong>
+            <br>Металл
+            <br>Серебро
+            <br>Старейшины
+        </td>
+        <td class="c"><strong>Север</strong>
+            <br>Вода
+            <br>Синий
+            <br>Перемены
+        </td>
+        <td class="cv"><strong>Северо-Восток</strong>
+            <br>Земля
+            <br>Жёлтый
+            <br>Направление
+        </td>
+    </tr>
+    <tr>
+        <td class="z"><strong>Запад</strong>
+            <br>Металл
+            <br>Золото
+            <br>Молодость
+        </td>
+        <td class="cen"><strong>Центр</strong>
+            <br>Всё
+            <br>Пурпурный
+            <br>Гармония
+        </td>
+        <td class="vo"><strong>Восток</strong>
+            <br>Дерево
+            <br>Синий
+            <br>Будущее
+        </td>
+    </tr>
+    <tr>
+        <td class="ioz"><strong>Юго-Запад</strong>
+            <br>Земля
+            <br>Коричневый
+            <br>Спокойствие
+        </td>
+        <td class="io"><strong>Юг</strong>
+            <br>Огонь
+            <br>Оранжевый
+            <br>Слава
+        </td>
+        <td class="iovo"><strong>Юго-Восток</strong>
+            <br>Дерево
+            <br>Зеленый
+            <br>Роман
+        </td>
+    </tr>
+</table>
+
+
+
+
+
+<div class="calculator">
+    <h2>Депозитный калькулятор</h2>
+    <label for="deposit">Первоначальный депозит:</label>
+    <input type="number" id="deposit" placeholder="Введите сумму" required>
+    <label for="nextDeposit">Срок вклада:</label>
+    <input type="number" id="nextDeposit" placeholder="Введите срок" required>
+    <label for="rate">Годовая процентная ставка:</label>
+    <input type="number" id="rate" placeholder="Введите процент" required>
+    <button onclick="calculate()">Рассчитать</button>
+    <div id="result"></div>
+</div>
+
+
+<script src="./main.js"></script>
+</body>
+</html>
